@@ -1,0 +1,11 @@
+import {enableProdMode} from '@angular/core';
+import { bootstrap }    from '@angular/platform-browser-dynamic';
+import { HeaderComponent } from './components/header/header.component';
+import { PeopleComponent } from './components/people/people.component';
+import { IiComponent } from './components/ii/ii.component';
+//import { PeopleComponent } from './People/people.component';
+//enableProdMode();
+bootstrap(HeaderComponent);
+bootstrap(PeopleComponent);
+bootstrap(IiComponent);
+//bootstrap(PeopleComponent);
